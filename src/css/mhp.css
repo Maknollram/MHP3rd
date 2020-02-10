@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+.linha {
+	flex-direction: row;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.row-wrap {
+	flex-flow: row wrap;
+}
+
+.item {
+	flex: 1;
+	margin: 2px;
+	background: #4A83FD;
+	text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.itemSemCor {
+	flex: 1;
+	margin: 2px;
+	text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.itemSemCor2 {
+	flex: 1;
+	margin: 2px;
+	text-align: center;
+    font-size: 0.90em;
+}
+
+.itemDetalhe {
+    flex: 1;
+	margin: 2px;
+	background: rgb(110, 253, 74);
+	text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.itemDetalheDrop {
+    flex: 1;
+	margin: 2px;
+	text-align: center;
+    font-size: 0.90em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.bordaInferior{
+    border-bottom: black solid 1px;
+    padding: 2px;
+}
+
+.subItemDetalhe {
+    flex: 1;
+	margin: 2px;
+	background: rgb(220, 253, 74);
+	text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.imgDano {
+    flex: 1;
+    max-width:100%;
+}
+
+.estrelaVermelha{
+    width: 12px;
+    height: 12px;
+    padding-right: 3px;
+}
+
+.itemMonstro {
+    flex: 1;
+    margin: 2px;
+    text-align: center;
+}
+
+.detalheItem {
+	/* flex: 1; */
+    margin: 5px;
+    text-align: center;
+}
+
+.center {
+	align-items: center;
+}
+
+.fake-link{
+    color: #2272f3;
+    cursor: pointer;
+}
+
+.fake-link-monstros{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.logo{
+    /* background-image: url('../imgs/mhp3rd.png');
+    background-repeat: no-repeat; */
+    width: 100px;
+    height: 60px;
+}
+
+.logoSobre{
+    /* background-image: url('../imgs/mhp3rd.png');
+    background-repeat: no-repeat; */
+    width: 250px;
+    height: 150px;
+    /* -webkit-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75); */
+}
+
+.tamanhoImg{
+    width: 50px;
+    height: 50px;
+}
+
+.tamanhoImgMenu{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+.tamanhoArmas{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.borda{
+    border: #2272f3 solid;
+}
+
+.largura300{
+    width: 300px;
+}
+
+.tamanhoMonstros{
+    width: 50%;
+    height: 150px;
+}
+
+.fonte18{
+    font-size: 18px;
+}
+
+.fonte30{
+    font-size: 30px;
+}
+
+.fonte25{
+    font-size: 25px;
+}
+
+.tamanhoDetalheMonstros{
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+}
+
+/* Img com legenda */
+.legendaImagem {
+    position: relative;
+    width: 100%;
+    height: 138px;
+}
+
+.legendaImagem .legenda {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    width: 99%;
+    height: 50px;
+    bottom: 5px;
+    background: rgb(2, 57, 175);
+    text-align:center;
+    opacity:0.7;
+}
+/* ---------------------------- */
+.nomeMonstro{
+    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    color: #ffffff;
+    font-weight:bold;
+    padding: 2px;
+}
+
+.itens{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border: black solid 1px;
+    font-weight: bold;
+    padding: 3px;
+}
